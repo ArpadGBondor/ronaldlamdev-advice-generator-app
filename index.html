@@ -22,17 +22,30 @@
     />
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Advice generator app</title>
   </head>
   <body>
     <main>
-      <div></div>
+      <div class="main-container">
+        <div class="advice-number-container">
+          <h1 id="advice-id-number">Advice #<!-- Advice ID goes here --></h1>
+        </div>
+        <div class="quotes-container">
+          <blockquote>"<!-- Advice text goes here -->"</blockquote>
+        </div>
+        <div class="divider-container">
+          <img
+            id="mobile-divider"
+            src="./images/pattern-divider-mobile.svg"
+            alt=""
+          />
+        </div>
+        <div class="dice-container">
+          <img id="dice-image" src="./images/icon-dice.svg" alt="" />
+        </div>
+      </div>
     </main>
-
-    Advice #<!-- Advice ID goes here -->
-
-    "<!-- Advice text goes here -->"
   </body>
 </html>

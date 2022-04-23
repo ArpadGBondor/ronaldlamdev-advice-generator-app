@@ -4,9 +4,51 @@
   --grayishBlue: hsl(217, 19%, 38%);
   --darkGrayishBlue: hsl(217, 19%, 24%);
   --darkBlue: hsl(218, 23%, 16%);
-  --quoteFontSize: 28px;
+  --quoteFontSize: 1.75rem;
 }
 
 body {
   font-family: 'Manrope', sans-serif;
+  background-color: var(--darkBlue);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
+
+blockquote {
+  color: var(--lightCyan);
+  font-size: var(--quoteFontSize);
+}
+
+main {
+  text-align: center;
+  background-color: var(--darkGrayishBlue);
+}
+
+#advice-id-number {
+  color: var(--neonGreen);
+  font-size: 23px;
+  letter-spacing: .2rem;
+}
+
+.divider-container {
+  padding: 0 20px 0 20px;
+  margin: 20px 0 20px 0;
+}
+
+.dice-container {
+  background-color: var(--neonGreen);
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  margin: 0 auto -30px auto;
+}
+
+#dice-image {
+  align-items: center;
+}
+
+
