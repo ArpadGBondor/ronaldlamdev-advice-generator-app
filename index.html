@@ -32,7 +32,13 @@
         <h1 id="advice-id-number">Advice #<!-- Advice ID goes here --></h1>
         <blockquote>"<!-- Advice text goes here -->"</blockquote>
         <div class="divider-container">
-          <img id="dividing-img" src="">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./images/pattern-divider-desktop.svg"
+            />
+            <img src="./images/pattern-divider-mobile.svg" alt="" />
+          </picture>
         </div>
         <button class="dice-button" aria-label="Click to roll dice">
           <img id="dice-image" src="./images/icon-dice.svg" alt="" />

@@ -21,6 +21,7 @@ body {
 blockquote {
   color: var(--lightCyan);
   font-size: var(--quoteFontSize); /* 28px/1.75rem font size */
+  padding: 30px;
 }
 
 main {
@@ -33,6 +34,7 @@ h1 {
   color: var(--neonGreen);
   font-size: 1.188rem; /* 19px */
   letter-spacing: .2rem;
+  padding: 30px;
 }
 
 .divider-container {
